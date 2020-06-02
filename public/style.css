@@ -1,0 +1,35 @@
+body {
+    background-color: skyblue;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 20px;
+    background-color: lightpink;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 8px;
+}

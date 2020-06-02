@@ -1,15 +1,23 @@
-<h1>Weather App!</h1>
+<h1>Weather Forecast!</h1>
 
 <form action="/" method="post">
-    <input type="text" name="city">	
+    <input type="text" name="city" placeholder="City Name">	
     <input type="submit" value="submit">
 </form>
 
-
-{{#each data}}
+{{!-- {{#each data}}
 <p>{{this}}</p>
-{{/each}} 
+{{/each}}  --}}
 
+<h2> The weather in {{name}} is {{temp}} Degrees.</h2>
+
+<h1>{{description}}</h1>
+
+
+ {{!-- {{#if weather }}
+    <h2>The temperature in {{city}} is </h2>
+    <h4>{{weather}}</h4>
+    {{/if}} --}}
 
 
 {{!-- <ul>
@@ -17,7 +25,6 @@
     <li>{{name}}</li>
     <li>{{description}}</li>
 </ul> --}}
-
 
 {{!-- <ul>
     {{#if data }}
@@ -28,6 +35,5 @@
         <p>no data found</p>
     {{/if}}
 </ul>  --}}
-
  {{!-- each helps us loop thru on object un handebars --}}
 
